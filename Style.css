@@ -1,0 +1,13 @@
+a:link { color: #ff0000; }
+a:visited { color: #000080; }
+a:hover { color: #ffff00; }
+a:active { color: #ff8000; }
+
+body {
+  background-color: #47b6ca;
+  color: #ffffff
+}
+
+.introduce{
+  text-align: center;
+}
