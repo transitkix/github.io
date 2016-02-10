@@ -3,11 +3,147 @@ a:visited { color: #000080; }
 a:hover { color: #ffff00; }
 a:active { color: #ff8000; }
 
-body {
-  background-color: #47b6ca;
-  color: #ffffff
+
+.body{
+  background-color: #3395C9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family:'Khula',
+ 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',
+ Meiryo, メイリオ, sans-serif;
 }
 
-.introduce{
+.ContentsCard{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 300px;
+  padding: 30px;
+  background-color: #FCFDF5;
+  border-radius: 10px;
+
+}
+
+
+.topAccentBorder{
+  border-top: solid 20px #E1FF3A;
+  margin: 0px;
+  position: relative;
+  top: -30px;
+}
+
+.topTitle{
   text-align: center;
+}
+
+.skillBadge{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Podkova', serif;
+  font-size: 48px;
+  color: #ffffff;
+  background-color: #E1FF3A;
+  width: 90px;
+  height: 90px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.skillBadge:last-child{
+  margin-right: 0;
+}
+
+.summary{
+  clear: both;
+}
+
+
+.emptyBox{
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.job{
+  width: 60%;
+  float: left;
+}
+
+.address{
+  width: 40%;
+  float: left;
+}
+
+.about{
+  clear: both;
+}
+
+.ticketBorder{
+  margin: 0 -30px;
+  border-top: dashed 2px #3395C9;
+}
+
+.bottomDecoration{
+  margin-top: 20px;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Podkova', serif;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #777996;
+}
+
+ul{
+  list-style: none;
+}
+
+p{
+  margin-bottom: 20px;
+}
+
+hr{
+  border: none;
+}
+
+h3{
+  font-family: 'Podkova', serif;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h4{
+  font-size: 12px;
+  color: #777996;
+}
+
+h5{
+  font-size: 14px;
+  color: #ACC145;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 375px) {
+  h3{
+    font-family: 'Podkova', serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .ContentsCard{
+    width: 100%;
+    padding: 0 20px;
+    margin: 10px;
+  }
+  .skillBadge{
+    width: 75px;
+    height: 75px;
+    float: left;
+    font-size: 36px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
 }
