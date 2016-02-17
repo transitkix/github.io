@@ -117,6 +117,7 @@ a:active { color: #ff8000; }
 .bercode{
   display: flex;
   margin: auto;
+  margin-bottom: -30px;
   width: 200px;
   height: 20px;
 }
