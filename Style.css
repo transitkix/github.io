@@ -193,3 +193,8 @@ a:first-child{
   .ticketBorder{
     margin: 0 -20px;
   }
+
+  .bercode{
+    margin-bottom: 0;
+  }
+}
