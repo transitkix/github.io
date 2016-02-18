@@ -41,20 +41,21 @@ a:active { color: #ff8000; }
 
 .skillList li {
   flex: 1;
-  display: flex;
-  justify-content: center;
-  color: #FCFDF5;
-  font-family: 'Podkova', serif;
-  font-size: 48px;
-  width: 80px;
-  height: 80px;
-  background-color: #E1FF3A;
-  margin-right: 10px;
   margin-bottom: 10px;
 }
 
-.badge:last-child{
-  margin-right: 0;
+.skillList .badge {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  background-color: #E1FF3A;
+  text-align: center;
+}
+
+.skillList .badge span {
+  color: #FCFDF5;
+  font-family: 'Podkova', serif;
+  font-size: 48px;
 }
 
 .summary{
@@ -155,6 +156,7 @@ h3{
 }
 
 h5{
+  font-family: 'Podkova', serif;
   font-size: 14px;
   color: #ACC145;
 }
