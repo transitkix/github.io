@@ -7,10 +7,7 @@ a:active { color: #ff8000; }
 .body{
   background-color: #838d9f;
   background-image: url("background_image.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
   background-attachment:fixed;
-  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
