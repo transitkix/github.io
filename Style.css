@@ -39,8 +39,9 @@ a:active { color: #ff8000; }
   display: flex;
 }
 
-.badge{
-  align-items: center;
+.skillList li {
+  flex: 1;
+  display: flex;
   justify-content: center;
   color: #FCFDF5;
   font-family: 'Podkova', serif;
