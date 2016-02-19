@@ -5,13 +5,16 @@ a:active { color: #ff8000; }
 
 
 .body{
-  background-color: #3395C9;
+  background-color: #838d9f;
+  background-image: url("background_image.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family:'Khula',
- 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',
- Meiryo, メイリオ, sans-serif;
+  font-family:'Khula','Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',Meiryo, メイリオ, sans-serif;
 }
 
 .ContentsCard{
@@ -21,14 +24,20 @@ a:active { color: #ff8000; }
   padding: 30px;
   background-color: #FCFDF5;
   border-radius: 10px;
+  box-shadow:rgba(73, 74, 94, 0.65098) 0px 0px 31px -7px;
+  -webkit-box-shadow:rgba(73, 74, 94, 0.65098) 0px 0px 31px -7px;
+  -moz-box-shadow:rgba(73, 74, 94, 0.65098) 0px 0px 31px -7px;
 }
 
 
 .topAccentBorder{
-  border-top: solid 20px #E1FF3A;
+  border-top: solid 10px #E1FF3A;
   margin: 0px;
+  display: flex;
+  margin: auto;
   position: relative;
   top: -30px;
+  width: 230px;
 }
 
 .topTitle{
@@ -53,6 +62,8 @@ a:active { color: #ff8000; }
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-radius: 4px;
+
 }
 
 .skillList .badge span {
@@ -117,19 +128,21 @@ a:active { color: #ff8000; }
 .caption{
   font-size: 12px;
   color: #777996;
+  letter-spacing: 0.15em;
+  position: relative;
+  top: -10px;
 }
 
-.bercode{
+.barcode{
   display: flex;
   margin: auto;
   margin-bottom: -30px;
-  width: 200px;
-  height: 20px;
+  width: 230px;
+  height: 10px;
 }
 
 h1{
   font-family: 'Podkova', serif;
-  margin-top: 20px;
   margin-bottom: 10px;
   color: #777996;
 }
@@ -146,6 +159,7 @@ li{
 
 p{
   margin-bottom: 20px;
+  color: #494A5E;
 }
 
 hr{
@@ -156,12 +170,15 @@ h3{
   font-family: 'Podkova', serif;
   font-size: 36px;
   margin-bottom: 20px;
+  color: #494A5E;
 }
 
 h5{
   font-family: 'Podkova', serif;
   font-size: 14px;
   color: #ACC145;
+  position:relative;
+  top:-5px;
 }
 
 a{
@@ -176,16 +193,23 @@ a:first-child{
 
 
 @media screen and (min-width: 0px) and (max-width: 375px) {
+
   h3{
     font-family: 'Podkova', serif;
     font-size: 30px;
     margin-bottom: 20px;
   }
 
+  .topAccentBorder{
+    position: relative;
+    top: 0px;
+    margin-bottom: 30px;
+  }
+
   .ContentsCard{
     width: 100%;
     padding: 0 20px;
-    margin: 10px;
+    margin: 20px;
   }
   .skillBadge{
     width: 75px;
@@ -200,7 +224,7 @@ a:first-child{
     margin: 0 -20px;
   }
 
-  .bercode{
-    margin-bottom: 0;
+  .barcode{
+    margin-bottom: 0px;
   }
 }
