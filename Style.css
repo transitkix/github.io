@@ -5,7 +5,7 @@ a:active { color: #494A5E; }
 
 
 .body{
-  background: linear-gradient(#E1FF3A, #D0ED32);
+  background: linear-gradient(#4FD0AE, #D8FF00);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,21 +18,28 @@ a:active { color: #494A5E; }
   width: 300px;
   padding: 30px;
   background-color: #FCFDF5;
-  border-radius: 10px;
-  box-shadow:rgba(73, 74, 94, 0.65098) 0px 0px 31px -7px;
-  -webkit-box-shadow:rgba(73, 74, 94, 0.65098) 0px 0px 31px -7px;
-  -moz-box-shadow:rgba(73, 74, 94, 0.65098) 0px 0px 31px -7px;
+  border-radius: 20px;
 }
 
 
 .topAccentBorder{
-  border-top: solid 10px #494A5E;
+  border-top: solid 10px #D8FF00;
   margin: 0px;
   display: flex;
   margin: auto;
   position: relative;
   top: -30px;
-  width: 230px;
+  width: 130px;
+}
+
+.bottomAccentBorder{
+  border-bottom: solid 10px #4FD0AE;
+  margin: 0px;
+  display: flex;
+  margin: auto;
+  position: relative;
+  top: 30px;
+  width: 130px;
 }
 
 .topTitle{
@@ -46,25 +53,6 @@ a:active { color: #494A5E; }
 .skillList li {
   flex: 1;
   margin-bottom: 10px;
-}
-
-.skillList .badge {
-  width: 80px;
-  height: 80px;
-  margin: 0 auto;
-  background-color: #E1FF3A;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 4px;
-
-}
-
-.skillList .badge span {
-  color: #FCFDF5;
-  font-family: 'Podkova', serif;
-  font-size: 48px;
 }
 
 .summary{
@@ -97,11 +85,6 @@ a:active { color: #494A5E; }
   clear: both;
 }
 
-.ticketBorder{
-  margin: 0 -30px;
-  height: 8px;
-  background-image: url("ticketBorder.png");
-}
 
 .bottomDecoration{
   margin-top: 20px;
@@ -148,7 +131,7 @@ a:active { color: #494A5E; }
 h1{
   font-family: 'Podkova', serif;
   margin-bottom: 10px;
-  color: #b1b2c2;
+  color: #4FD0AE;
 }
 
 ul{
@@ -170,6 +153,13 @@ p{
 
 hr{
   border: none;
+}
+
+h2{
+  font-family: 'Podkova', serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #494A5E;
 }
 
 h3{
