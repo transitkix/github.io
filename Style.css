@@ -5,41 +5,20 @@ a:active { color: #494A5E; }
 
 
 .body{
-  background: linear-gradient(#4FD0AE, #D8FF00);
+  background-color: #ffffff;
+  background-size: contain;
+  font-size: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family:'Khula','Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',Meiryo, メイリオ, sans-serif;
+  font-family: Open Sans,Noto Sans Japanese,-apple-system,BlinkMacSystemFont,Helvetica Neue,Hiragino Kaku Gothic ProN,Arial,meiryo sans-serif;
 }
 
 .ContentsCard{
   margin-top: 10px;
-  margin-bottom: 40px;
-  width: 300px;
-  padding: 30px;
-  background-color: #FCFDF5;
-  border-radius: 20px;
-}
-
-
-.topAccentBorder{
-  border-top: solid 10px #D8FF00;
-  margin: 0px;
-  display: flex;
-  margin: auto;
-  position: relative;
-  top: -30px;
-  width: 130px;
-}
-
-.bottomAccentBorder{
-  border-bottom: solid 10px #4FD0AE;
-  margin: 0px;
-  display: flex;
-  margin: auto;
-  position: relative;
-  top: 30px;
-  width: 130px;
+  margin-bottom: 10px;
+  max-width: 400px;
+  padding: 40px;
 }
 
 .topTitle{
@@ -56,18 +35,21 @@ a:active { color: #494A5E; }
 }
 
 .summary{
+  font-size: 1.2rem;
+  color: #494A5E;
+  line-height: 1.6;
   clear: both;
 }
 
 
 .emptyBox{
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .emptyBox2x{
   margin-top: 0px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 
@@ -85,12 +67,6 @@ a:active { color: #494A5E; }
   clear: both;
 }
 
-
-.bottomDecoration{
-  margin-top: 20px;
-  text-align: center;
-}
-
 .linkImage{
   -webkit-transition: 0.4s ;
 }
@@ -100,39 +76,52 @@ a:active { color: #494A5E; }
 }
 
 .companyName{
+  font-size: 1.4rem;
   color: #494A5E;
 }
 
 .companyCaption{
-  font-size: 12px;
+  font-size: 1rem;
   color: #777996;
   margin-left: auto;
 }
 
 .caption{
-  font-size: 12px;
+  font-size: 1.2rem;
   color: #777996;
   letter-spacing: 0.15em;
   position: relative;
   /*top: -10px;*/
 }
 
-.barcode{
-  display: flex;
-  margin: auto;
-  margin-bottom: -30px;
-  width: 230px;
-  height: 30px;
+.myname{
+  font-size: 3rem;
+  font-weight: bold;
+  color: #494A5E;
 }
-
-
 
 
 h1{
-  font-family: 'Podkova', serif;
-  margin-bottom: 10px;
-  color: #4FD0AE;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #777996;
+  line-height: 1.3;
 }
+
+h2{
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #494A5E;
+}
+
+h3{
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #494A5E;
+}
+
+
 
 ul{
   list-style: none;
@@ -148,39 +137,23 @@ li{
 
 p{
   margin-bottom: 20px;
+  letter-spacing: normal;
   color: #494A5E;
+  font-size: 1.2rem;
 }
+
 
 hr{
   border: none;
 }
 
-h2{
-  font-family: 'Podkova', serif;
-  font-size: 24px;
-  margin-bottom: 20px;
-  color: #494A5E;
-}
 
-h3{
-  font-family: 'Podkova', serif;
-  font-size: 36px;
-  margin-bottom: 20px;
-  color: #494A5E;
-}
-
-h5{
-  font-family: 'Podkova', serif;
-  font-size: 14px;
-  color: #ACC145;
-  position:relative;
-  top:-5px;
-}
 
 a{
   margin-left: 20px;
   width:100%;
   height:100%;
+  text-decoration: none;
 }
 
 a:first-child{
@@ -190,43 +163,14 @@ a:first-child{
 
 @media screen and (min-width: 0px) and (max-width: 375px) {
 
-  h3{
-    font-family: 'Podkova', serif;
-    font-size: 30px;
-    margin-bottom: 20px;
-  }
-
-  .topAccentBorder{
-    position: relative;
-    top: 0px;
-    margin-bottom: 30px;
-  }
-
-  .bottomAccentBorder{
-    position: relative;
-    top: 0px;
-    margin-bottom: 30px;
-  }
 
   .ContentsCard{
     width: 260px;
     padding: 0 20px;
     margin: 20px;
   }
-  .skillBadge{
-    width: 75px;
-    height: 75px;
-    float: left;
-    font-size: 36px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-  }
 
-  .ticketBorder{
-    margin: 0 -20px;
-  }
 
-  .barcode{
-    margin-bottom: 0px;
-  }
+
+
 }
