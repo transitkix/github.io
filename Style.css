@@ -76,7 +76,6 @@ a:active { color: #494A5E; }
 }
 
 .companyName{
-  font-size: 1.4rem;
   color: #494A5E;
 }
 
@@ -100,9 +99,15 @@ a:active { color: #494A5E; }
   color: #494A5E;
 }
 
+.value{
+  font-size: 1.4rem;
+  line-height: 1.8em;
+  color: #494A5E;
+}
+
 
 h1{
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   font-size: 1rem;
   color: #777996;
   line-height: 1.3;
@@ -165,7 +170,7 @@ a:first-child{
 
 
   .ContentsCard{
-    width: 260px;
+    width: 290px;
     padding: 0 20px;
     margin: 20px;
   }
